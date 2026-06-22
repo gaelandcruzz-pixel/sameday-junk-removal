@@ -19,9 +19,13 @@ export default function RootLayout({
       <body>
         <header className="sticky top-0 z-50 bg-white border-b">
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/" className="font-bold text-xl">
-              Sameday Junk Removal
-            </a>
+<a href="/">
+  <img
+    src="/images/logo.png"
+    alt="Durapest Junk Removal"
+    className="h-14 w-auto"
+  />
+</a>
 
             <nav className="hidden md:flex gap-6 font-medium">
               <a href="/services">Services</a>
