@@ -1,3 +1,11 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Us | Local Brampton Junk Removal Team',
+  description:
+    'Sameday Junk Removal is a local Brampton crew serving the GTA. Upfront pricing, two-person crew, same-day availability. Call 905-782-6332.',
+}
+
 export default function AboutPage() {
   const phone = '905-782-6332'
 

@@ -1,3 +1,11 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Junk Removal Services | Furniture, Appliances, Cleanouts | Brampton & GTA',
+  description:
+    'Full-service junk removal in Brampton and the GTA. We remove furniture, appliances, carpet, renovation debris, and more. Same-day pickup available. Call 905-782-6332.',
+}
+
 export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-white px-6 py-20 text-gray-900">

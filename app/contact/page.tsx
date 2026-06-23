@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import QuoteForm from '../components/QuoteForm'
+
+export const metadata: Metadata = {
+  title: 'Get a Free Junk Removal Quote | Brampton & GTA',
+  description:
+    'Request a free junk removal quote in Brampton and the GTA. Call or text 905-782-6332. Same-day service available for furniture, appliances, cleanouts and more.',
+}
 
 export default function ContactPage() {
   return (
