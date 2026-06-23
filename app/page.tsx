@@ -1,3 +1,5 @@
+import QuoteForm from './components/QuoteForm'
+
 export default function Home() {
   const phone = "905-782-6332";
 
@@ -61,19 +63,7 @@ export default function Home() {
               Text or call {phone}. Photos help us quote faster.
             </p>
 
-            <form className="space-y-4">
-              <input className="w-full border p-3 rounded-lg" placeholder="Your name" />
-              <input className="w-full border p-3 rounded-lg" placeholder="Phone number" />
-              <input className="w-full border p-3 rounded-lg" placeholder="City" />
-              <textarea
-                className="w-full border p-3 rounded-lg"
-                placeholder="What needs to be removed?"
-                rows={4}
-              />
-              <button className="w-full bg-black text-white p-3 rounded-lg font-bold">
-                Submit Quote Request
-              </button>
-            </form>
+            <QuoteForm />
           </div>
         </div>
       </section>

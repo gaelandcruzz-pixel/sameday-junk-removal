@@ -1,3 +1,5 @@
+import QuoteForm from '../components/QuoteForm'
+
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white px-6 py-20 text-gray-900">
@@ -23,19 +25,7 @@ export default function ContactPage() {
         <div className="bg-gray-100 rounded-2xl p-8">
           <h2 className="text-2xl font-bold mb-4">Quote Request Form</h2>
 
-          <form className="space-y-4">
-            <input className="w-full border p-3 rounded-lg" placeholder="Your name" />
-            <input className="w-full border p-3 rounded-lg" placeholder="Phone number" />
-            <input className="w-full border p-3 rounded-lg" placeholder="City" />
-            <textarea
-              className="w-full border p-3 rounded-lg"
-              placeholder="What needs to be removed?"
-              rows={5}
-            />
-            <button className="w-full bg-black text-white p-3 rounded-lg font-bold">
-              Submit Quote Request
-            </button>
-          </form>
+          <QuoteForm />
         </div>
       </div>
     </main>
