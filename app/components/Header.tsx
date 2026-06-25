@@ -14,11 +14,41 @@ const LINKS = [
   { label: 'Contact',      href: '/contact' },
 ]
 
+const FAMILY = [
+  { label: 'Pest Control & Wildlife Removal', href: 'https://www.durapest.ca' },
+  { label: 'Powerwashing',                    href: '#' },
+  { label: 'Snow Removal',                    href: '#' },
+  { label: 'Junk Removal',                    href: '/' },
+]
+
 export default function Header({ phone }: { phone: string }) {
   const [open, setOpen] = useState(false)
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b">
+      {/* Durapest family bar */}
+      <div className="bg-zinc-900 text-white">
+        <div className="max-w-7xl mx-auto px-6 py-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
+          <span className="text-[10px] font-bold uppercase tracking-widest text-yellow-400 shrink-0">
+            Part of the Durapest Family
+          </span>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            {FAMILY.map(({ label, href }, i) => (
+              <span key={label} className="flex items-center gap-3">
+                {i > 0 && <span className="text-white/20 text-xs hidden sm:inline">·</span>}
+                <a
+                  href={href}
+                  target={href.startsWith('http') ? '_blank' : undefined}
+                  rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  className="text-[11px] text-white/70 hover:text-white transition-colors"
+                >
+                  {label}
+                </a>
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="/">
