@@ -17,6 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/service-areas/milton`,            priority: 0.8, changeFrequency: 'monthly' },
     { url: `${BASE}/service-areas/etobicoke`,         priority: 0.8, changeFrequency: 'monthly' },
     { url: `${BASE}/service-areas/north-york`,        priority: 0.8, changeFrequency: 'monthly' },
-    { url: `${BASE}/blog`,                            priority: 0.7, changeFrequency: 'weekly'  },
+    { url: `${BASE}/blog`,                                                          priority: 0.7, changeFrequency: 'weekly'  },
+    { url: `${BASE}/blog/how-much-does-junk-removal-cost-brampton`,                priority: 0.8, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/5-signs-time-to-hire-junk-removal`,                       priority: 0.7, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/estate-cleanout-guide-brampton`,                          priority: 0.8, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/what-happens-to-your-junk`,                               priority: 0.7, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/garage-cleanout-tips-brampton`,                           priority: 0.7, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/carpet-removal-vs-junk-removal`,                          priority: 0.7, changeFrequency: 'monthly' },
   ]
 }

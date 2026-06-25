@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import Header from "./components/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -86,35 +87,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
 
-        <header className="sticky top-0 z-50 bg-white border-b">
-          <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/">
-              <img
-                src="/images/logo.png"
-                alt="Durapest Junk Removal"
-                className="h-14 w-auto"
-              />
-            </a>
-
-            <nav className="hidden md:flex gap-5 font-medium text-sm">
-              <a href="/" className="hover:text-yellow-600 transition-colors">Home</a>
-              <a href="/services" className="hover:text-yellow-600 transition-colors">Services</a>
-              <a href="/#gallery" className="hover:text-yellow-600 transition-colors">Gallery</a>
-              <a href="/#testimonials" className="hover:text-yellow-600 transition-colors">Testimonials</a>
-              <a href="/blog" className="hover:text-yellow-600 transition-colors">Blog</a>
-              <a href="/service-areas" className="hover:text-yellow-600 transition-colors">Areas</a>
-              <a href="/about" className="hover:text-yellow-600 transition-colors">About</a>
-              <a href="/contact" className="hover:text-yellow-600 transition-colors">Contact</a>
-            </nav>
-
-            <a
-              href="tel:9057826332"
-              className="bg-black text-white px-4 py-2 rounded-lg font-bold"
-            >
-              Call {phone}
-            </a>
-          </div>
-        </header>
+        <Header phone={phone} />
 
         {children}
 

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -78,22 +79,21 @@ export default function BlogPage() {
       <section className="px-4 sm:px-6 py-20">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
           {POSTS.map(({ slug, title, date, excerpt, tag }) => (
-            <article
-              key={slug}
-              className="border border-gray-100 rounded-2xl p-7 hover:border-yellow-400 hover:shadow-lg transition-all duration-200 flex flex-col"
-            >
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-bold uppercase tracking-widest text-yellow-600 bg-yellow-50 border border-yellow-100 px-3 py-1 rounded-full">
-                  {tag}
-                </span>
-                <span className="text-xs text-gray-400">{date}</span>
-              </div>
-              <h2 className="font-bold text-lg mb-3 leading-snug">{title}</h2>
-              <p className="text-gray-500 text-sm leading-relaxed flex-1">{excerpt}</p>
-              <div className="mt-5 pt-4 border-t border-gray-100">
-                <span className="text-sm font-bold text-yellow-600">Coming soon →</span>
-              </div>
-            </article>
+            <Link key={slug} href={`/blog/${slug}`} className="group block">
+              <article className="border border-gray-100 rounded-2xl p-7 group-hover:border-yellow-400 group-hover:shadow-lg transition-all duration-200 flex flex-col h-full">
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-xs font-bold uppercase tracking-widest text-yellow-600 bg-yellow-50 border border-yellow-100 px-3 py-1 rounded-full">
+                    {tag}
+                  </span>
+                  <span className="text-xs text-gray-400">{date}</span>
+                </div>
+                <h2 className="font-bold text-lg mb-3 leading-snug">{title}</h2>
+                <p className="text-gray-500 text-sm leading-relaxed flex-1">{excerpt}</p>
+                <div className="mt-5 pt-4 border-t border-gray-100">
+                  <span className="text-sm font-bold text-yellow-600 group-hover:underline">Read article →</span>
+                </div>
+              </article>
+            </Link>
           ))}
         </div>
       </section>
