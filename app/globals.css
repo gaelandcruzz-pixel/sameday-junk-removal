@@ -10,6 +10,16 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Durapest brand orange (#F64028) replacing yellow palette */
+  --color-yellow-50: #fff1ee;
+  --color-yellow-100: #ffd5cc;
+  --color-yellow-200: #ffb3a3;
+  --color-yellow-300: #f87a63;
+  --color-yellow-400: #f64028;
+  --color-yellow-500: #e03018;
+  --color-yellow-600: #c42a14;
+  --color-yellow-700: #9e2010;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,7 +39,7 @@ body {
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.15);
-  border-top-color: #facc15;
+  border-top-color: #f64028;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
