@@ -74,7 +74,7 @@ export default function BramptonPage() {
             Same-Day Junk Removal<br />in Brampton, ON
           </h1>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl">
-            Sameday Junk Removal is Brampton&apos;s local junk removal crew. We remove
+            Durapest Junk Removal is Brampton&apos;s local junk removal crew. We remove
             furniture, appliances, garage junk, renovation debris, and more — with
             same-day and next-day availability across all of Brampton.
           </p>
@@ -160,7 +160,7 @@ export default function BramptonPage() {
       <section className="bg-black text-white px-6 py-20">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Why Brampton Chooses Sameday Junk Removal</h2>
+            <h2 className="text-3xl font-bold mb-6">Why Brampton Chooses Durapest Junk Removal</h2>
             <ul className="space-y-4">
               {[
                 'Same-day and next-day junk removal in Brampton',

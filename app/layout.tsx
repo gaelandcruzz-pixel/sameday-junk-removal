@@ -5,8 +5,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL('https://samedayjunkremoval.ca'),
   title: {
-    default: 'Junk Removal Brampton & GTA | Same-Day Service | Sameday Junk Removal',
-    template: '%s | Sameday Junk Removal',
+    default: 'Junk Removal Brampton & GTA | Same-Day Service | Durapest Junk Removal',
+    template: '%s | Durapest Junk Removal',
   },
   description:
     'Same-day junk removal in Brampton, Mississauga, Toronto & the GTA. Furniture, appliances, garage cleanouts, estate cleanouts and more. Call 905-782-6332 for a free quote.',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'Sameday Junk Removal',
+  name: 'Durapest Junk Removal',
   telephone: '+1-905-782-6332',
   url: 'https://samedayjunkremoval.ca',
   description:
@@ -91,9 +91,8 @@ export default function RootLayout({
             <a href="/">
               <img
                 src="/images/logo.png"
-                alt="Sameday Junk Removal"
+                alt="Durapest Junk Removal"
                 className="h-14 w-auto"
-                style={{ mixBlendMode: 'multiply' }}
               />
             </a>
 
@@ -118,7 +117,7 @@ export default function RootLayout({
         <footer className="bg-black text-white px-6 py-10">
           <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-bold text-xl mb-3">Sameday Junk Removal</h3>
+              <h3 className="font-bold text-xl mb-3">Durapest Junk Removal</h3>
               <p className="text-gray-300 text-sm">
                 Fast, affordable junk removal for homes, apartments, garages,
                 storage units, estates, and businesses across Brampton and the GTA.
@@ -159,7 +158,7 @@ export default function RootLayout({
           </div>
 
           <p className="text-center text-gray-500 text-sm mt-10">
-            © 2026 Sameday Junk Removal. Serving Brampton, Mississauga, Toronto & the GTA.
+            © 2026 Durapest Junk Removal. Serving Brampton, Mississauga, Toronto & the GTA.
           </p>
         </footer>
       </body>

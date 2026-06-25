@@ -14,7 +14,7 @@ export default function VaughanPage() {
         <p className="text-yellow-600 font-bold text-sm uppercase tracking-widest mb-4">Vaughan Junk Removal</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Same-Day Junk Removal in Vaughan, ON</h1>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-          Sameday Junk Removal serves all of Vaughan. We remove furniture, appliances,
+          Durapest Junk Removal serves all of Vaughan. We remove furniture, appliances,
           garage junk, renovation debris, and more — with same-day and next-day junk
           removal available across Vaughan and the GTA.
         </p>

@@ -58,7 +58,7 @@ export default function MississaugaPage() {
             Same-Day Junk Removal<br />in Mississauga, ON
           </h1>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl">
-            Sameday Junk Removal serves all of Mississauga. We remove furniture,
+            Durapest Junk Removal serves all of Mississauga. We remove furniture,
             appliances, garage junk, renovation debris, and more — with same-day
             and next-day junk removal across Mississauga.
           </p>

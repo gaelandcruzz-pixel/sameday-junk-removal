@@ -14,7 +14,7 @@ export default function TorontoPage() {
         <p className="text-yellow-600 font-bold text-sm uppercase tracking-widest mb-4">Toronto Junk Removal</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Same-Day Junk Removal in Toronto, ON</h1>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-          Sameday Junk Removal provides fast junk removal services throughout Toronto.
+          Durapest Junk Removal provides fast junk removal services throughout Toronto.
           We remove furniture, appliances, renovation debris, and handle full cleanouts for
           garages, basements, storage units, and estates.
         </p>

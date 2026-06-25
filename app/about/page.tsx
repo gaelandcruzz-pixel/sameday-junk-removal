@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'About Us | Local Brampton Junk Removal Team',
   description:
-    'Sameday Junk Removal is a local Brampton crew serving the GTA. Upfront pricing, two-person crew, same-day availability. Call 905-782-6332.',
+    'Durapest Junk Removal is a local Brampton crew serving the GTA. Upfront pricing, two-person crew, same-day availability. Call 905-782-6332.',
 }
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-          Sameday Junk Removal is a local crew serving Brampton and the GTA.
+          Durapest Junk Removal is a local crew serving Brampton and the GTA.
           We make junk removal simple — send photos, get a clear price, and
           we handle the lifting, loading, and disposal the same day.
         </p>

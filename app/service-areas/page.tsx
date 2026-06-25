@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Junk Removal Service Areas | Brampton, Mississauga, Toronto & GTA',
   description:
-    'Sameday Junk Removal serves Brampton, Mississauga, Toronto, Vaughan, Oakville, Milton, Etobicoke, and North York. Call 905-782-6332 for same-day junk removal.',
+    'Durapest Junk Removal serves Brampton, Mississauga, Toronto, Vaughan, Oakville, Milton, Etobicoke, and North York. Call 905-782-6332 for same-day junk removal.',
 }
 
 export default function BramptonPage() {
@@ -19,7 +19,7 @@ export default function BramptonPage() {
         </h1>
 
         <p className="text-lg text-gray-600 mb-8">
-          Sameday Junk Removal provides fast junk removal services throughout
+          Durapest Junk Removal provides fast junk removal services throughout
           Brampton. We remove furniture, appliances, garage junk, storage units,
           renovation debris, carpets, and estate cleanouts.
         </p>
