@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import QuoteForm from './components/QuoteForm'
-import { SplineScene } from './components/SplineScene'
 import {
   Sofa, Refrigerator, Warehouse, Home as HomeIcon, Package,
   Archive, Layers, HardHat, Briefcase,
@@ -13,8 +12,6 @@ export const metadata: Metadata = {
   description:
     'Same-day junk removal in Brampton, Mississauga, Toronto & the GTA. We remove furniture, appliances, garage junk, estate cleanouts and renovation debris. Call 905-782-6332.',
 }
-
-const SPLINE_SCENE = 'https://prod.spline.design/your-scene-id-here/scene.splinecode'
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -225,9 +222,17 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right: Spline scene */}
+          {/* Right: hero photo */}
           <div className="hidden md:block absolute right-0 top-0 w-1/2 h-full">
-            <SplineScene scene={SPLINE_SCENE} className="w-full h-full" />
+            <Image
+              src="/images/jobs/IMG_6932.jpeg"
+              alt="Estate cleanout Brampton — packed living room before junk removal"
+              fill
+              className="object-cover opacity-60"
+              sizes="50vw"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent" />
           </div>
         </div>
       </section>
