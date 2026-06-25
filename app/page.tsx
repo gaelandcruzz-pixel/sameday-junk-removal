@@ -106,21 +106,21 @@ const TESTIMONIALS = [
 
 const BEFORE_AFTER = [
   {
-    label: 'Living Room',
+    label: 'Living Area',
     sublabel: 'Sofas, shelving, lamps & contents removed',
-    before: '/images/jobs/IMG_6932.jpeg',
-    after: '/images/jobs/IMG_6935.jpeg',
+    before: '/images/jobs/IMG_6957.jpeg',
+    after: '/images/jobs/IMG_6950.jpeg',
   },
   {
     label: 'Bedroom',
     sublabel: 'Bed, dresser, wardrobe & belongings cleared',
     before: '/images/jobs/IMG_6925.jpeg',
-    after: '/images/jobs/IMG_6950.jpeg',
+    after: '/images/jobs/IMG_6997.jpeg',
   },
   {
     label: 'Carpet Removal',
-    sublabel: 'Every room — old carpet out, hardwood floor revealed',
-    before: '/images/jobs/IMG_6930.jpeg',
+    sublabel: 'Old carpet torn out, original hardwood revealed',
+    before: '/images/jobs/IMG_6958.jpeg',
     after: '/images/jobs/IMG_6994.jpeg',
   },
 ]
