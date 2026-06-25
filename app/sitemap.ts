@@ -17,5 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/service-areas/milton`,            priority: 0.8, changeFrequency: 'monthly' },
     { url: `${BASE}/service-areas/etobicoke`,         priority: 0.8, changeFrequency: 'monthly' },
     { url: `${BASE}/service-areas/north-york`,        priority: 0.8, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog`,                            priority: 0.7, changeFrequency: 'weekly'  },
   ]
 }

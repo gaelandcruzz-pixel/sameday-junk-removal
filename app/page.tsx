@@ -336,7 +336,7 @@ export default function Home() {
       </section>
 
       {/* ── Testimonials ─────────────────────────────────────── */}
-      <section className="px-4 sm:px-6 py-24 bg-white">
+      <section id="testimonials" className="px-4 sm:px-6 py-24 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-yellow-600 font-bold text-xs uppercase tracking-widest mb-3">Reviews</p>
@@ -423,7 +423,7 @@ export default function Home() {
       </section>
 
       {/* ── Before / After gallery ───────────────────────────── */}
-      <section className="bg-gray-50 px-4 sm:px-6 py-24">
+      <section id="gallery" className="bg-gray-50 px-4 sm:px-6 py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-yellow-600 font-bold text-xs uppercase tracking-widest mb-3">Results</p>

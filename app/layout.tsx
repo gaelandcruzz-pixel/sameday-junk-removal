@@ -96,11 +96,15 @@ export default function RootLayout({
               />
             </a>
 
-            <nav className="hidden md:flex gap-6 font-medium">
-              <a href="/services">Services</a>
-              <a href="/service-areas">Areas</a>
-              <a href="/about">About</a>
-              <a href="/contact">Contact</a>
+            <nav className="hidden md:flex gap-5 font-medium text-sm">
+              <a href="/" className="hover:text-yellow-600 transition-colors">Home</a>
+              <a href="/services" className="hover:text-yellow-600 transition-colors">Services</a>
+              <a href="/#gallery" className="hover:text-yellow-600 transition-colors">Gallery</a>
+              <a href="/#testimonials" className="hover:text-yellow-600 transition-colors">Testimonials</a>
+              <a href="/blog" className="hover:text-yellow-600 transition-colors">Blog</a>
+              <a href="/service-areas" className="hover:text-yellow-600 transition-colors">Areas</a>
+              <a href="/about" className="hover:text-yellow-600 transition-colors">About</a>
+              <a href="/contact" className="hover:text-yellow-600 transition-colors">Contact</a>
             </nav>
 
             <a
