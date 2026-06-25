@@ -220,6 +220,9 @@ export default function Home() {
                 </div>
               ))}
             </div>
+            <p className="text-gray-500 text-xs mt-5 leading-relaxed max-w-sm">
+              Licensed by the Ontario Ministry of the Environment — Reg.&nbsp;63/09. Humane methods, fully insured.
+            </p>
           </div>
 
           {/* Right: hero photo */}
@@ -242,7 +245,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { icon: Shield,       label: 'Licensed & Insured' },
+              { icon: Shield,       label: 'MOE Licensed — Reg. 63/09' },
               { icon: Clock,        label: 'Same-Day Available' },
               { icon: CheckCircle2, label: 'Upfront Pricing' },
               { icon: Leaf,         label: 'Eco-Friendly Disposal' },
@@ -590,6 +593,36 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── Durapest family ──────────────────────────────────── */}
+      <section className="bg-white border-y border-gray-100 px-4 sm:px-6 py-12">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-14">
+          <div className="shrink-0">
+            <Image
+              src="/images/logo.png"
+              alt="Durapest logo"
+              width={140}
+              height={56}
+              className="object-contain"
+            />
+          </div>
+          <div className="flex-1 text-center md:text-left">
+            <p className="text-xs font-bold uppercase tracking-widest text-yellow-600 mb-2">Part of the Durapest Family</p>
+            <h3 className="text-xl font-bold mb-2">Also need Wildlife Removal or Pest Control?</h3>
+            <p className="text-gray-500 text-sm leading-relaxed max-w-xl">
+              Durapest Junk Removal is a sister company of Durapest Wildlife Removal &amp; Pest Control — serving the GTA with the same licensed, insured, and humane approach since day one.
+            </p>
+          </div>
+          <a
+            href="https://www.durapest.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 inline-flex items-center gap-2 border border-gray-200 text-gray-800 px-6 py-3 rounded-xl font-bold text-sm hover:border-yellow-400 hover:bg-yellow-50 transition-all whitespace-nowrap"
+          >
+            Visit durapest.ca →
+          </a>
         </div>
       </section>
 
