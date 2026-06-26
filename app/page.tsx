@@ -124,9 +124,9 @@ const BEFORE_AFTER = [
 
 const PROJECTS = [
   {
-    image: '/images/jobs/IMG_6932.jpeg',
-    title: 'Step 1 — Furniture & Carpet',
-    desc: 'Every room full: sofas, shelving, beds, dressers — and carpet throughout.',
+    image: '/images/jobs/IMG_6958.jpeg',
+    title: 'Step 1 — Carpet Still Down',
+    desc: 'Old carpet covering every room — removal starts here.',
     tag: '1. Before',
   },
   {
@@ -136,9 +136,9 @@ const PROJECTS = [
     tag: '2. During',
   },
   {
-    image: '/images/jobs/IMG_6958.jpeg',
-    title: 'Step 3 — Carpet Torn Out',
-    desc: 'Old carpet ripped from every room, rolled up, and hauled to the truck.',
+    image: '/images/jobs/IMG_6993.jpeg',
+    title: 'Step 3 — Carpet Being Torn Out',
+    desc: 'Carpet rolled up and actively pulled from the floor, hardwood emerging underneath.',
     tag: '3. Carpet Out',
   },
   {
