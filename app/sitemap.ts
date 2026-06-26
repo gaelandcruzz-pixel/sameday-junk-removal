@@ -24,5 +24,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog/what-happens-to-your-junk`,                               priority: 0.7, changeFrequency: 'monthly' },
     { url: `${BASE}/blog/garage-cleanout-tips-brampton`,                           priority: 0.7, changeFrequency: 'monthly' },
     { url: `${BASE}/blog/carpet-removal-vs-junk-removal`,                          priority: 0.7, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/mattress-disposal-brampton`,                               priority: 0.7, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/appliance-removal-brampton`,                               priority: 0.7, changeFrequency: 'monthly' },
+    { url: `${BASE}/blog/renovation-debris-removal-gta`,                            priority: 0.7, changeFrequency: 'monthly' },
   ]
 }

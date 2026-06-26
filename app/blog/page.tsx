@@ -57,6 +57,30 @@ const POSTS = [
       'Many homeowners don\'t realize we handle carpet removal too. Learn the difference between the two services and when you need both.',
     tag: 'Carpet Removal',
   },
+  {
+    slug: 'mattress-disposal-brampton',
+    title: 'Mattress Disposal in Brampton: What You Need to Know',
+    date: 'June 2026',
+    excerpt:
+      'You can\'t put a mattress in the regular garbage. Here\'s how mattress disposal works in Brampton — and the fastest way to get it out of your home.',
+    tag: 'Mattress Removal',
+  },
+  {
+    slug: 'appliance-removal-brampton',
+    title: 'Appliance Removal in Brampton & GTA',
+    date: 'June 2026',
+    excerpt:
+      'Old fridge, washer, or stove? Here\'s how appliance removal works, what it costs, and how to prepare for same-day pickup in Brampton.',
+    tag: 'Appliance Removal',
+  },
+  {
+    slug: 'renovation-debris-removal-gta',
+    title: 'Renovation Debris Removal in the GTA',
+    date: 'June 2026',
+    excerpt:
+      'Drywall, lumber, tiles, old flooring — renovation waste can\'t go in the regular bin. Here\'s how post-reno cleanup works across the GTA.',
+    tag: 'Renovation',
+  },
 ]
 
 export default function BlogPage() {

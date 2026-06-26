@@ -1,16 +1,28 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import Header from "./components/Header";
+import FloatingCTA from "./components/FloatingCTA";
 import "./globals.css";
 
+const BASE = 'https://durapestjunkremoval.ca'
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://samedayjunkremoval.ca'),
+  metadataBase: new URL(BASE),
   title: {
     default: 'Junk Removal Brampton & GTA | Same-Day Service | Durapest Junk Removal',
     template: '%s | Durapest Junk Removal',
   },
   description:
     'Same-day junk removal in Brampton, Mississauga, Toronto & the GTA. Furniture, appliances, garage cleanouts, estate cleanouts and more. Call 905-782-6332 for a free quote.',
+  openGraph: {
+    type: 'website',
+    siteName: 'Durapest Junk Removal',
+    images: [{ url: '/images/jobs/IMG_6993.jpeg', width: 1200, height: 630, alt: 'Durapest Junk Removal — Brampton & GTA' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/images/jobs/IMG_6993.jpeg'],
+  },
 };
 
 const localBusinessSchema = {
@@ -18,7 +30,7 @@ const localBusinessSchema = {
   '@type': 'LocalBusiness',
   name: 'Durapest Junk Removal',
   telephone: '+1-905-782-6332',
-  url: 'https://samedayjunkremoval.ca',
+  url: BASE,
   description:
     'Same-day junk removal in Brampton, Mississauga, Toronto and the GTA. We remove furniture, appliances, garage junk, estate cleanouts and more.',
   priceRange: '$$',
@@ -90,6 +102,8 @@ export default function RootLayout({
         <Header phone={phone} />
 
         {children}
+
+        <FloatingCTA phone={phone} />
 
         <footer className="bg-black text-white px-6 py-10">
           <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
