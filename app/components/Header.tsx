@@ -16,8 +16,8 @@ const LINKS = [
 
 const FAMILY = [
   { label: 'Pest Control & Wildlife Removal', href: 'https://www.durapest.ca' },
-  { label: 'Powerwashing',                    href: '#' },
-  { label: 'Snow Removal',                    href: '#' },
+  { label: 'Powerwashing',                    href: 'https://www.durapestpowerwashing.ca' },
+  { label: 'Snow Removal',                    href: 'https://www.durapestsnowremoval.ca' },
   { label: 'Junk Removal',                    href: '/' },
 ]
 
