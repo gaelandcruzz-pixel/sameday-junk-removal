@@ -600,9 +600,9 @@ export default function Home() {
       <section className="bg-white border-y border-gray-100 px-4 sm:px-6 py-12">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-14">
           <div className="shrink-0">
-            <Image
-              src="/images/logo.png"
-              alt="DuraPest logo"
+            <img
+              src="/logos/durajunk.png"
+              alt="DuraJunk logo"
               width={140}
               height={56}
               className="object-contain"
