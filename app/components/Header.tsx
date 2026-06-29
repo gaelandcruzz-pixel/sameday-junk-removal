@@ -51,12 +51,13 @@ export default function Header({ phone }: { phone: string }) {
       </div>
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="/">
-          <img
-            src="/images/logo.png"
-            alt="DuraJunk"
-            className="h-14 w-auto"
-          />
+        <a href="/" aria-label="DuraJunk home">
+          <svg viewBox="0 0 280 90" className="h-12 w-auto" aria-hidden="true">
+            <ellipse cx="140" cy="45" rx="133" ry="41" fill="none" stroke="#f64028" strokeWidth="6"/>
+            <ellipse cx="140" cy="45" rx="121" ry="29" fill="none" stroke="#0f172a" strokeWidth="3.5"/>
+            <ellipse cx="140" cy="45" rx="117" ry="25" fill="white"/>
+            <text x="140" y="54" textAnchor="middle" fontFamily="Inter, Arial, sans-serif" fontWeight="800" fontSize="28" fill="#0f172a" letterSpacing="-0.5">DuraJunk</text>
+          </svg>
         </a>
 
         {/* Desktop nav */}
