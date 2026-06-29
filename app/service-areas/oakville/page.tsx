@@ -14,7 +14,7 @@ export default function OakvillePage() {
         <p className="text-yellow-600 font-bold text-sm uppercase tracking-widest mb-4">Oakville Junk Removal</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Same-Day Junk Removal in Oakville, ON</h1>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-          Durapest Junk Removal serves Oakville and surrounding areas. We remove furniture,
+          DuraJunk serves Oakville and surrounding areas. We remove furniture,
           appliances, garage junk, renovation debris, and handle full property cleanouts
           with same-day availability.
         </p>

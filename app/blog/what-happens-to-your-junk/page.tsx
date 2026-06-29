@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'What Actually Happens to Your Junk After Removal? | Durapest Junk Removal',
+  title: 'What Actually Happens to Your Junk After Removal? | DuraJunk',
   description:
     'We don\'t just dump everything in a landfill. Here\'s exactly how we sort, donate, recycle, and responsibly dispose of items removed across the GTA.',
 }
@@ -67,7 +67,7 @@ export default function Page() {
 
         <h2>Why This Matters</h2>
         <p>Choosing a responsible junk removal company means less ends up in landfills, more gets a second life through donation, and materials are recycled properly rather than illegally dumped in the community.</p>
-        <p>When you hire Durapest Junk Removal, you&apos;re not just clearing your space — you&apos;re making sure the stuff you no longer need is handled the right way.</p>
+        <p>When you hire DuraJunk, you&apos;re not just clearing your space — you&apos;re making sure the stuff you no longer need is handled the right way.</p>
       </article>
 
       <section className="bg-black text-white px-4 sm:px-6 py-16">

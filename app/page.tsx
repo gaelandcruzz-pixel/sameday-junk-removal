@@ -596,23 +596,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Durapest family ──────────────────────────────────── */}
+      {/* ── Dura Group family ──────────────────────────────────── */}
       <section className="bg-white border-y border-gray-100 px-4 sm:px-6 py-12">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-14">
           <div className="shrink-0">
             <Image
               src="/images/logo.png"
-              alt="Durapest logo"
+              alt="DuraPest logo"
               width={140}
               height={56}
               className="object-contain"
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <p className="text-xs font-bold uppercase tracking-widest text-yellow-600 mb-2">Part of the Durapest Family</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-yellow-600 mb-2">Part of the Dura Group Family</p>
             <h3 className="text-xl font-bold mb-2">Also need Wildlife Removal or Pest Control?</h3>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xl">
-              Durapest Junk Removal is a sister company of Durapest Wildlife Removal &amp; Pest Control — serving the GTA with the same licensed, insured, and humane approach since day one.
+              DuraJunk is a sister company of DuraPest Wildlife Removal &amp; Pest Control — serving the GTA with the same licensed, insured, and humane approach since day one.
             </p>
           </div>
           <a

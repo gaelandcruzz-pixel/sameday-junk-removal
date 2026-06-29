@@ -14,7 +14,7 @@ export default function EtobicokePage() {
         <p className="text-yellow-600 font-bold text-sm uppercase tracking-widest mb-4">Etobicoke Junk Removal</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Same-Day Junk Removal in Etobicoke, ON</h1>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-          Durapest Junk Removal serves all of Etobicoke. We remove furniture, appliances,
+          DuraJunk serves all of Etobicoke. We remove furniture, appliances,
           garage junk, renovation debris, and more — with same-day and next-day junk
           removal across Etobicoke.
         </p>

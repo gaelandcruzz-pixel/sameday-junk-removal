@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal in Brampton & GTA | Durapest Junk Removal',
+  title: 'Appliance Removal in Brampton & GTA | DuraJunk',
   description:
     'Old fridge, stove, washer, or dryer? Here\'s how appliance removal and disposal works in Brampton — what it costs, what to expect, and how to book same-day pickup.',
 }

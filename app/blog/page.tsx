@@ -5,7 +5,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Junk Removal Tips & Guides | Brampton & GTA Blog',
   description:
-    'Junk removal tips, pricing guides, and cleanout advice for Brampton, Mississauga, Toronto and the GTA from Durapest Junk Removal.',
+    'Junk removal tips, pricing guides, and cleanout advice for Brampton, Mississauga, Toronto and the GTA from DuraJunk.',
 }
 
 const POSTS = [
@@ -91,7 +91,7 @@ export default function BlogPage() {
       {/* Hero */}
       <section className="bg-black text-white px-4 sm:px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-yellow-400 font-bold text-xs uppercase tracking-widest mb-4">Durapest Junk Removal Blog</p>
+          <p className="text-yellow-400 font-bold text-xs uppercase tracking-widest mb-4">DuraJunk Blog</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Junk Removal Tips & Guides</h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Pricing guides, cleanout tips, and local junk removal advice for Brampton, Mississauga, and the GTA.

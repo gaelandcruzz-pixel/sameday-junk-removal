@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'How to Prepare for a Garage Cleanout in Brampton | Durapest Junk Removal',
+  title: 'How to Prepare for a Garage Cleanout in Brampton | DuraJunk',
   description:
     'A little preparation before your garage cleanout makes the job faster and cheaper. Here\'s exactly what to do before the junk removal crew arrives in Brampton.',
 }

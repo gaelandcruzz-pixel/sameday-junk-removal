@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Renovation Debris Removal in the GTA | Durapest Junk Removal',
+  title: 'Renovation Debris Removal in the GTA | DuraJunk',
   description:
     'Drywall, lumber, tiles, old flooring — renovation debris can\'t go in the regular bin. Here\'s how post-renovation cleanup works in Brampton and across the GTA.',
 }

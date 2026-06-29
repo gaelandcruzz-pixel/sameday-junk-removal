@@ -14,7 +14,7 @@ export default function MiltonPage() {
         <p className="text-yellow-600 font-bold text-sm uppercase tracking-widest mb-4">Milton Junk Removal</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Same-Day Junk Removal in Milton, ON</h1>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-          Durapest Junk Removal serves Milton and surrounding Halton Region. We remove
+          DuraJunk serves Milton and surrounding Halton Region. We remove
           furniture, appliances, garage junk, and renovation debris — with same-day junk
           removal available.
         </p>

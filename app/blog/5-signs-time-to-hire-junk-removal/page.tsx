@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: '5 Signs It\'s Time to Hire a Junk Removal Service | Durapest Junk Removal',
+  title: '5 Signs It\'s Time to Hire a Junk Removal Service | DuraJunk',
   description:
     'Overflowing garage? Just finished a renovation? Moving? Here are the 5 signs it\'s time to stop putting it off and hire a junk removal service in Brampton.',
 }

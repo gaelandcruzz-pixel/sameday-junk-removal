@@ -26,11 +26,11 @@ export default function Header({ phone }: { phone: string }) {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b">
-      {/* Durapest family bar */}
+      {/* Dura Group family bar */}
       <div className="bg-zinc-900 text-white">
         <div className="max-w-7xl mx-auto px-6 py-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
           <span className="text-[10px] font-bold uppercase tracking-widest text-yellow-400 shrink-0">
-            Part of the Durapest Family
+            Part of the Dura Group Family
           </span>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
             {FAMILY.map(({ label, href }, i) => (
@@ -54,7 +54,7 @@ export default function Header({ phone }: { phone: string }) {
         <a href="/">
           <img
             src="/images/logo.png"
-            alt="Durapest Junk Removal"
+            alt="DuraJunk"
             className="h-14 w-auto"
           />
         </a>

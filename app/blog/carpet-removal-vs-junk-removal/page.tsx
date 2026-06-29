@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Carpet Removal vs. Junk Removal: What\'s the Difference? | Durapest',
+  title: 'Carpet Removal vs. Junk Removal: What\'s the Difference? | DuraJunk',
   description:
     'Ripping out old carpet is heavy, awkward work. Here\'s how carpet removal fits into a junk removal job — and why most Brampton homeowners hire one crew to handle both.',
 }

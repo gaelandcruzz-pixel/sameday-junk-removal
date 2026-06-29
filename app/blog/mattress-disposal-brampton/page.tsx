@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Mattress Disposal in Brampton | Durapest Junk Removal',
+  title: 'Mattress Disposal in Brampton | DuraJunk',
   description:
     'Can\'t put a mattress in the garbage? Here\'s how mattress disposal works in Brampton and the GTA — and the fastest way to get it out of your home.',
 }
@@ -40,7 +40,7 @@ export default function Page() {
 
         <h2>Mattress Recycling in Ontario</h2>
         <p>Mattresses are actually highly recyclable — up to 90% of materials (steel springs, foam, fabric) can be recovered. Ontario has a mattress recycling program, and licensed junk removal companies use registered facilities to ensure mattresses are processed properly rather than dumped.</p>
-        <p>When you hire Durapest, your mattress goes to a recycling facility, not a landfill — which is both better for the environment and required by Ontario waste disposal regulations.</p>
+        <p>When you hire DuraJunk, your mattress goes to a recycling facility, not a landfill — which is both better for the environment and required by Ontario waste disposal regulations.</p>
 
         <h2>The Fastest Option: Same-Day Pickup</h2>
         <p>The easiest way to get rid of a mattress in Brampton is to book a junk removal pickup. We carry it out, load it, and take it to the appropriate facility. You don&apos;t need a truck, a helper, or a trip to the dump.</p>

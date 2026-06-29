@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone, ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Page Not Found | Durapest Junk Removal',
+  title: 'Page Not Found | DuraJunk',
 }
 
 export default function NotFound() {

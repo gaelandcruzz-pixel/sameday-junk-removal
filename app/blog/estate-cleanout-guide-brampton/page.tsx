@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'The Complete Guide to Estate Cleanouts in Brampton | Durapest Junk Removal',
+  title: 'The Complete Guide to Estate Cleanouts in Brampton | DuraJunk',
   description:
     'Dealing with an estate cleanout in Brampton? This guide covers what to expect, what to keep vs. donate vs. remove, how long it takes, and how to make the process easier.',
 }
@@ -56,7 +56,7 @@ export default function Page() {
         <p>The sorting phase — which families do themselves before the crew arrives — typically takes longer than the removal itself. Give yourself several days to go through belongings before scheduling the cleanout.</p>
 
         <h2>What a Professional Cleanout Includes</h2>
-        <p>When you hire Durapest Junk Removal for an estate cleanout in Brampton, here&apos;s what we handle:</p>
+        <p>When you hire DuraJunk for an estate cleanout in Brampton, here&apos;s what we handle:</p>
         <ul>
           <li>All furniture: beds, dressers, sofas, tables, chairs, shelving</li>
           <li>Appliances: fridges, stoves, washers, dryers, microwaves</li>
