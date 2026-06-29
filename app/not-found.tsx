@@ -10,7 +10,7 @@ export default function NotFound() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center justify-center px-6">
       <div className="text-center max-w-lg">
-        <p className="text-[#f64028] font-bold text-xs uppercase tracking-widest mb-4">404</p>
+        <p className="text-[#f76a00] font-bold text-xs uppercase tracking-widest mb-4">404</p>
         <h1 className="text-5xl font-bold mb-4">Page Not Found</h1>
         <p className="text-gray-400 mb-10">
           The page you&apos;re looking for doesn&apos;t exist. Try one of the links below or give us a call.
@@ -24,7 +24,7 @@ export default function NotFound() {
           </a>
           <a
             href={`tel:${phone.replace(/-/g, '')}`}
-            className="inline-flex items-center justify-center gap-2 bg-[#f64028] text-white px-6 py-3.5 rounded-xl font-bold hover:bg-[#f87a63] transition-colors"
+            className="inline-flex items-center justify-center gap-2 bg-[#f76a00] text-white px-6 py-3.5 rounded-xl font-bold hover:bg-[#ff8c3a] transition-colors"
           >
             <Phone className="w-4 h-4" /> Call {phone}
           </a>

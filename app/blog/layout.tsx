@@ -14,7 +14,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
           <div className="flex items-center gap-3 w-full sm:w-auto">
             <a
               href={`tel:${phone.replace(/-/g, '')}`}
-              className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 bg-[#f64028] text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-[#f87a63] transition-colors"
+              className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 bg-[#f76a00] text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-[#ff8c3a] transition-colors"
             >
               <Phone className="w-4 h-4" /> Call {phone}
             </a>

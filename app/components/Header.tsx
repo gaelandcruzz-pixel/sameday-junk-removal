@@ -40,7 +40,7 @@ export default function Header({ phone }: { phone: string }) {
                   href={href}
                   target={href.startsWith('http') ? '_blank' : undefined}
                   rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  className={`text-[11px] transition-colors ${label === 'Junk Removal' ? 'text-[#f64028] font-bold hover:text-[#f87a63]' : 'text-white/70 hover:text-white'}`}
+                  className={`text-[11px] transition-colors ${label === 'Junk Removal' ? 'text-[#f76a00] font-bold hover:text-[#ff8c3a]' : 'text-white/70 hover:text-white'}`}
                 >
                   {label}
                 </a>

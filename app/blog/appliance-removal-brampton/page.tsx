@@ -72,7 +72,7 @@ export default function Page() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Same-Day Appliance Removal in Brampton</h2>
           <p className="text-gray-400 mb-8">Text photos for an upfront price. We handle the disconnection check, heavy lifting, and disposal.</p>
-          <a href={`tel:${phone.replace(/-/g, '')}`} className="inline-flex items-center gap-3 bg-[#f64028] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#f87a63] transition-colors">
+          <a href={`tel:${phone.replace(/-/g, '')}`} className="inline-flex items-center gap-3 bg-[#f76a00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#ff8c3a] transition-colors">
             <Phone className="w-5 h-5" /> Call {phone}
           </a>
         </div>
