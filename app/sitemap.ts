@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 
-const BASE = 'https://samedayjunkremoval.ca'
+const BASE = 'https://durajunk.ca'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

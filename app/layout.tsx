@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import FloatingCTA from "./components/FloatingCTA";
 import "./globals.css";
 
-const BASE = 'https://durapestjunkremoval.ca'
+const BASE = 'https://durajunk.ca'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
